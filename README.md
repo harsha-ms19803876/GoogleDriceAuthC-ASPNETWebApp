@@ -16,17 +16,17 @@ Deployment
 -------------
 
 1) Rebuild the project.
-2) Open the GoogleDriveAuthCSharpASPNETWebApp solution in Visual Studio. In the Solution Explorer, 
-expand the GoogleDriveAuthCSharpASPNETWebApp.Web\References folder. Select assemblies whose names start with "DevExpress". 
+2) Open the GoogleAuthWebApp solution in Visual Studio. In the Solution Explorer, 
+expand the GoogleAuthWebApp.Web\References folder. Select assemblies whose names start with "DevExpress". 
 If you use Entity Framework, third-party controls or modules, select their assemblies as well. 
 In the Properties window, set the CopyLocal property to True.
 3) Change the Active Solution Configuration from Debug to Release.
 4) Open the MySolution.Web\Web.config file. In the system.web section, set the compilation's debug option to false.
 5) Build and run the ASP.NET application.
 6) Check that the application performs correctly and close it.
-7) Ensure that the GoogleDriveAuthCSharpASPNETWebApp\GoogleDriveAuthCSharpASPNETWebApp.Web folder contains application files.
+7) Ensure that the GoogleDriveAuthCSharpASPNETWebApp\GoogleAuthWebApp.Web folder contains application files.
 8) If the MySolution\MySolution.Web\Bin folder contains PDB files, remove them.
-9) Perform this step on the Developer Workstation. Right-click the GoogleDriveAuthCSharpASPNETWebApp.Web project in Solution Explorer.
+9) Perform this step on the Developer Workstation. Right-click the GoogleAuthWebApp.Web project in Solution Explorer.
 Choose Publish... Specify the target location in the invoked Publish Web dialog and click Publish.
 
 For more information, please visit the below URL.
