@@ -2,9 +2,15 @@
 
 Clone the project.
 
-Clean and rebuild.
+Clean and rebuild the project.
 
 Rebuilding process will install all the dependancies and nuget packages which are needed to run the project.
+
+Development Testing
+-------------
+
+Run the project in visual studio after rebuilding.
+
 
 Deployment
 -------------
