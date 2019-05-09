@@ -14,7 +14,7 @@ Deployment
 expand the GoogleDriveAuthCSharpASPNETWebApp.Web\References folder. Select assemblies whose names start with "DevExpress". 
 If you use Entity Framework, third-party controls or modules, select their assemblies as well. 
 In the Properties window, set the CopyLocal property to True.
-3) hange the Active Solution Configuration from Debug to Release.
+3) Change the Active Solution Configuration from Debug to Release.
 4) Open the MySolution.Web\Web.config file. In the system.web section, set the compilation's debug option to false.
 5) Build and run the ASP.NET application.
 6) Check that the application performs correctly and close it.
